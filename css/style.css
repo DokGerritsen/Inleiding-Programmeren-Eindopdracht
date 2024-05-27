@@ -1,0 +1,51 @@
+
+
+body {
+    background-color: rgb(231, 228, 228);
+    background-image: url(/images/Programmeren\ Achtergrondx\ .png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+.Zorro {
+    padding-bottom: 3em;
+    width: 200px
+}
+
+
+p {
+    font-size: 2em;
+}
+
+
+button {
+    position: absolute;
+    top: 550px;
+    left: 800px;
+    width: 200px;
+    height: 80px;
+    font-size: 50px;
+}
+
+
+#popup {
+    background-color: rgb(231, 228, 228);
+    width: 700px;
+    height: 500px;
+    padding: 20px;
+    border: 2px solid black;
+}
