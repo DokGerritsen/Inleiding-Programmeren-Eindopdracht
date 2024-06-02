@@ -9,16 +9,34 @@
 </head>
 
 <!-- https://pixabay.com/sound-effects/search/zorro/ bron van de sound -->
+<!-- https://audiotrimmer.com/  bron van de foundzorro sound -->
 
 <body>
+    <header>
 
-    <div id="popup">
-        <h1>Zoek Zorro</h1>
-        <p>Zorro is ergens verborgen... <br> Kun jij hem vinden?</p>
-        <img class="Zorro" src="images/ZORRO.png" alt="Zorro">
-        <button id="playButton">Start</button>
-        <audio id="music" src="Sounds/Zorro sound.mp3"></audio>
+         <!-- ik wil dat de timer automatisch begint als ik op de originele startknop druk - chatGPT  -->
+    <div id="timerContainer">
+        <div id="timerBar"></div>
     </div>
+
+    </header>
+
+    <main>
+    <!-- Diego heeft mij hierbij geholpen -->
+    <section id="popupBody">
+        <div id="popup">
+            <h1>Zoek Zorro</h1>
+            <p id="text">Zorro is zoek, hoe vaak vind jij hem in 30 seconden?</p>
+            <img class="Zorro" src="images/ZORRO.png" alt="Zorro">
+            <button id="playButton">Start</button>
+        </div>
+    </section>
+    </main>
+   
+
+    <img id="zorrosneak" src="images/zorrosneak.png" alt="zorrosneak">
+
+    <p class="counter">Click count: <span id="clickCounter">0</span></p>
 
     <script src="Javascript/javascript.js"></script>
 </body>
